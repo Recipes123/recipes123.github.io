@@ -1,0 +1,56 @@
+﻿img.thumb {
+    width: 35vw;
+    height: 35vh;
+    display: block;
+    float: left;
+}
+.title {
+    color:black;
+}
+.title::after {
+    display: block;
+    height: 2px;
+    background: var(--base);
+    content: "";
+    width: 200px;
+    margin: 20px auto;
+}
+.recipe{
+    background-color:
+}
+.content {
+    float:right;
+}
+
+/*@media only screen and (max-width: 1200px) {
+    img.thumb {
+        width: 15vw;
+        /*height: 15vh;
+        display: block;
+        float: left;
+        margin: 1% 0 1% 1.6%;
+        padding: 0 2%;
+    }
+}
+ Medium Phones - Small Tablets 
+@media only screen and (max-width: 767px){
+    img.thumb {
+        width: 15vw;
+        height: 15vh;
+        display: block;
+        float: left;
+        margin: 1% 0 1% 1.6%;
+        padding: 0 4%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    img.thumb {
+        width: 15vw;
+        height: 15vh;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0 5%;
+    }
+}*
